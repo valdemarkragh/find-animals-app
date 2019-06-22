@@ -1,0 +1,222 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+.ui-page.ui-page-theme-a.ui-page-active {
+    background-color: rgb(66, 244, 128);
+    height: 100vh;
+}   
+
+
+.ui-btn-icon-right:after {
+    display:none;
+}
+
+.ui-content1 {
+    margin-top:50%;
+}
+
+.ui-grid-solo > .ui-block-a {
+    width:90%;
+    margin-left:4.5%;
+}
+
+.ng-binding {
+    text-align: center;
+}
+
+.ui-content {
+    padding: 0;
+}
+
+.top-header {
+    height: 60px;
+}
+
+.ui-header .ui-title {
+    margin: 1% 30%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#back_btn {
+    background: none;
+    border: none;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+
+.text1 {
+    font-size: 1.1em;
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: none;
+}
+
+form {
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+label {
+    text-shadow: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+    label p {
+        font-size: 1.1em;
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+input {
+    height: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.ui-btn {
+    margin-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.location p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.1em;
+    margin-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-shadow: none;
+}
+
+
+div.ui-slider {
+    margin-bottom:10%;
+}
+
+#slider-1-label {
+    text-align:center;
+}
+
+
+.header-container {
+    border-bottom: 1px solid grey;
+}
+
+.hr {
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+hr {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.half11 {
+    height: auto;
+    width: 49.8%;
+    display: inline-block;
+    float: left;
+    border-right: 1px solid grey;
+}
+
+.half22 {
+    height: auto;
+    width: 49.8%;
+    display: inline-block;
+    float: right;
+}
+
+
+
+.half11 h2 {
+    text-align: center;
+    text-shadow: none;
+    font-size: 1.1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.half22 h2 {
+    text-align: center;
+    text-shadow: none;
+    font-size: 1.1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+    td.desc {
+        border-right: 1px solid black;
+        width: 50%;
+    }
+
+        td.desc p {
+            border-bottom: 1px solid black;
+        }
+
+
+th.desc {
+    border-right:1px solid black;
+}
+
+tr {
+    margin:0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+td.distance p{
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+
+.collapsable {
+    display: inline-block;
+    overflow: hidden;
+    height: 0;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    -o-transition: height 1s;
+}
+
+    .collapsable.showMe {
+        height: 100px;
+    }
+
+td.ng-binding {
+    width:50%;
+    border-bottom:1px solid black;
+    padding:10px;
+}
+th {
+    width:50%;
+}
